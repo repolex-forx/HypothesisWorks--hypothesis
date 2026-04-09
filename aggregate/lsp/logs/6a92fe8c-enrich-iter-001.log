@@ -1,0 +1,42 @@
+[2026-04-09T17:52:22Z] === ENRICH ITERATION 1 START | repo=HypothesisWorks/hypothesis sha=6a92fe8c ===
+[2026-04-09T17:52:22Z] [iter=1] PHASE START: enrich repo=HypothesisWorks/hypothesis sha=6a92fe8c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6a92fe8c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6a92fe8cab6a3011e30436aa49e8c9bb815c5df5.nq.gz
+[2026-04-09T17:52:22Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-04-09T17:52:29Z] [iter=1] AST store loaded triples=775068 load_secs=6 mem_mb=834 MB
+[2026-04-09T17:52:29Z] [iter=1] Step 2: Finding LSP targets mem_mb=834 MB
+[2026-04-09T17:52:30Z] [iter=1] LSP targets found call_sites=8282 imports=837 extends=223 implements=0 secs=1
+[2026-04-09T17:52:31Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=834 MB
+[2026-04-09T17:52:35Z] [iter=1] Position index built positions=52014 nodes_with_types=67180 secs=4 mem_mb=834 MB
+[2026-04-09T17:52:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=834 MB already_completed_types=[] already_completed_files=0
+[2026-04-09T17:52:35Z] [iter=1] Resolving target type target_type=call_site count=8282
+[2026-04-09T17:53:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=4 resolved=169 errors=171 current=tests/nocover/test_floating.py
+[2026-04-09T17:54:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.6 files_done=8 resolved=262 errors=281 current=src/hypothesis/strategytests.py
+[2026-04-09T17:54:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=9 resolved=309 errors=402 current=src/hypothesis/extra/fakefactory.py
+[2026-04-09T17:55:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=13 resolved=407 errors=510 current=src/hypothesis/settings.py
+[2026-04-09T17:56:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=16 resolved=675 errors=677 current=src/hypothesis/database/__init__.py
+[2026-04-09T17:57:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=19 resolved=770 errors=900 current=src/hypothesis/specifiers.py
+[2026-04-09T17:57:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=25 resolved=870 errors=1000 current=tests/nocover/test_strategy_state.py
+[2026-04-09T17:58:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=28 resolved=982 errors=1147 current=tests/cover/test_flatmap.py
+[2026-04-09T17:58:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.6 files_done=33 resolved=1141 errors=1265 current=src/hypothesis/searchstrategy/numbers.py
+[2026-04-09T17:59:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=36 resolved=1226 errors=1383 current=tests/cover/test_recursive.py
+[2026-04-09T18:00:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.8 files_done=40 resolved=1304 errors=1510 current=src/hypothesis/internal/chooser.py
+[2026-04-09T18:00:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=48 resolved=1354 errors=1616 current=tests/cover/test_explicit_examples.py
+[2026-04-09T18:01:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.0 files_done=50 resolved=1424 errors=1749 current=src/hypothesis/internal/strategymethod.py
+[2026-04-09T18:01:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.6 files_done=54 resolved=1497 errors=1863 current=tests/cover/test_composite.py
+[2026-04-09T18:02:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=57 resolved=1577 errors=2007 current=tests/cover/test_via_the_database.py
+[2026-04-09T18:03:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=63 resolved=1631 errors=2114 current=tests/cover/test_filestorage.py
+[2026-04-09T18:03:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=70 resolved=1714 errors=2267 current=tests/cover/test_deprecation.py
+[2026-04-09T18:04:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.2 files_done=72 resolved=1770 errors=2400 current=src/hypothesis/database/backend.py
+[2026-04-09T18:05:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=80 resolved=1864 errors=2514 current=src/hypothesis/testrunners/forking.py
+[2026-04-09T18:05:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=86 resolved=1929 errors=2618 current=tests/cover/test_draw_example.py
+[2026-04-09T18:06:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=94 resolved=1993 errors=2723 current=tests/cover/test_control.py
+[2026-04-09T18:06:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=106 resolved=2060 errors=2826 current=tests/pytest/test_capture.py
+[2026-04-09T18:07:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=125 resolved=2145 errors=2946 current=tests/cover/test_reporting.py
+[2026-04-09T18:07:47Z] [iter=1] Target type resolved target_type=call_site resolved=2245 errors=3039 secs=913 mem_mb=834 MB
+[2026-04-09T18:07:47Z] [iter=1] Resolving target type target_type=import_statement count=837
+[2026-04-09T18:07:49Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=15.4 files_done=16 resolved=90 errors=0 current=tests/cover/test_streams.py
+[2026-04-09T18:07:52Z] [iter=1] Target type resolved target_type=import_statement resolved=466 errors=0 secs=5 mem_mb=834 MB
+[2026-04-09T18:07:52Z] [iter=1] Resolving target type target_type=extends_clause count=223
+[2026-04-09T18:07:55Z] [iter=1] Target type resolved target_type=extends_clause resolved=187 errors=0 secs=2 mem_mb=834 MB
+[2026-04-09T18:08:01Z] [iter=1] Step 5: Writing final enrichment file triples=70274
+[2026-04-09T18:08:02Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6a92fe8cab6a3011e30436aa49e8c9bb815c5df5.nq.gz size_kb=1556
+[2026-04-09T18:08:02Z] [iter=1] PHASE END: enrich elapsed_s=940 elapsed_min=15.7 total_triples=70274
